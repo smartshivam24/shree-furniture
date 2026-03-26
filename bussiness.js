@@ -175,7 +175,7 @@ function orderOnWhatsApp() {
         message += `${index + 1}. ${item.name}\n`; 
     });
 
-    const phoneNumber = "919696178421"; 
+    const phoneNumber = "919554528821"; 
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
 }
